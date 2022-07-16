@@ -95,7 +95,6 @@ for n in range(10):
     assert is_prime(n) == is_prime_fast(n)
 
 # function that return all prime numbers up to and including n
-
 def prime_numbers(n):
     numbers = []
     for i in range(1,n):
